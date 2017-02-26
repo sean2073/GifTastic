@@ -1,0 +1,24 @@
+element.style{
+	color: #a92424;
+}
+
+button,
+    div,
+    form,
+    input {
+      margin: 10px;
+button.topic{
+	color: #a92424;
+}
+body,div#topics-buttons,p{
+	font-family: "Helvetica neue",Helvetica, Arial, Sans-Serif;
+	font-size: 16px;
+	background-color: #a92424;
+}
+form,form#topics-form{
+	float:right;
+	margin-left: 400px;
+	margin-top: 20px;
+}
+
+{}
