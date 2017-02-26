@@ -2,7 +2,7 @@
     $(document).ready(function() {
 
 // Initial array of topics
-      var topics = ["Beyonce", "Lady Ga Ga", "Ciara", "Mariah Carey"];
+      var topics = ["Beyonce", "Lady Ga Ga", "Ciara", "Mariah Carey", "Madonna", "Janet Jackson", "Rihanna"];
       
       // Function for displaying movie data
       function renderButtons() {
@@ -63,7 +63,7 @@
             imgArray.push(newImg3);
            // $("#images").append(newImg3);
             //(response.Title + "<img src='" + response
-            $("#images").append("<br><br><p>The rating is " + rating + "</p>");
+            $("#images").append("<br><br><p>Rated: " + rating + "</p>");
           //  $("#images").append(newImg3 + "<br>'" + rating);
             $("#images").append(newImg3);
             
@@ -76,7 +76,7 @@
       }//closes renderButtons()
       //images is the parent and gifs is the child
        $("#images").on("click", ".gifs", function(event) {
-        console.log("You stink!! ");
+        console.log("It worked!! ");
         var state = $(this).attr('data-state');
         
         console.log("The state of the gif is " + state);
